@@ -525,6 +525,7 @@ public class Foablak extends javax.swing.JFrame {
         btnFelezo.setEnabled(false);
         felezett = true;
 
+        felezo.clear();
         felezo.add(aktualis.getHelyesValasz());
         while (felezo.size() < 2) {
             felezo.add(ran.nextInt(4));
